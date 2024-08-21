@@ -1,13 +1,11 @@
 flutter_native_splash:
   color: "#FFFFFF"
   color_dark: "#272727"
-  image: assets/logos/k-store-splash-logo-white.png
-  image_dark: assets/logos/k-store-splash-logo-black.png
+  image: assets/logos/k-store-splash-logo.png
 
   android_12:
     color: "#FFFFFF"
     color_dark: "#272727"
-    image: assets/logos/k-store-splash-logo-white.png
-    image_dark: assets/logos/k-store-splash-logo-black.png
+    image: assets/logos/k-store-splash-logo.png
 
   web: false
