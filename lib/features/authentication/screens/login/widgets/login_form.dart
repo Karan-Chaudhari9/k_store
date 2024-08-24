@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:k_store/features/authentication/screens/signup/signup.dart';
 import 'package:k_store/utils/constants/sizes.dart';
 import 'package:k_store/utils/constants/text_strings.dart';
 
@@ -66,7 +68,7 @@ class KLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const SignupScreen()) ,
                   child: const Text(KText.createAccount)),
             ),
           ],

@@ -13,4 +13,6 @@ class KImages {
   static const String onBoardingLottie1 = "assets/images/on_boarding_lottie/product.json";    //product
   static const String onBoardingLottie2 = "assets/images/on_boarding_lottie/payment.json";   //payment
   static const String onBoardingLottie3 = "assets/images/on_boarding_lottie/delivery.json"; //delivery
+  static const String accountCreatedLottie = "assets/images/on_boarding_lottie/acc_created.json";
+  static const String emailVerifiedLottie = "assets/images/on_boarding_lottie/email_verified.json";
 }
