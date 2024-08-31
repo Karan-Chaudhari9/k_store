@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:k_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:k_store/features/authentication/screens/signup/signup.dart';
 import 'package:k_store/utils/constants/sizes.dart';
 import 'package:k_store/utils/constants/text_strings.dart';
@@ -50,7 +51,7 @@ class KLoginForm extends StatelessWidget {
 
                 /// Forget Password
                 TextButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const ForgetPassword()),
                     child: const Text(KText.forgetPassword))
               ],
             ),
