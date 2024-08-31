@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:k_store/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:k_store/features/authentication/screens/signup/signup.dart';
+import 'package:k_store/navigation_menu.dart';
 import 'package:k_store/utils/constants/sizes.dart';
 import 'package:k_store/utils/constants/text_strings.dart';
 
@@ -61,7 +62,7 @@ class KLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const NavigationMenu()),
                     child: const Text(KText.signIn))),
             const SizedBox(height: KSizes.spaceBtwItems),
 
